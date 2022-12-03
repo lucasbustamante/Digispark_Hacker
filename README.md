@@ -2,4 +2,4 @@
 
 
 <p float="center">
-    <img src="/images/DH.pgn" width="250" />
+    <img src="/images/DH.png" width="250" />
