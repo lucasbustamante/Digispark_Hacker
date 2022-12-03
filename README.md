@@ -1,5 +1,20 @@
 # Digispark Hacker
 
+<p align="center">
+    <img src="/images/DH.png" width="180" />
+    
+ 
+## DigiSpark Attiny85
+Para pessoas que não podem comprar um RubberDucky, o DigiSpark Attiny85 é a solução para seus problemas. Com ele é possível usá-lo como HID graças ao "DigiKeyboard.h", ele pode ser usado como teclado para enviar pressionamentos de tecla ao computador, que pode ser usado para pregar arquivos pessoais e criar um backdoor no sistema.
 
-<p float="center">
-    <img src="/images/DH.png" width="250" />
+## O que você encontra aqui?
+Eu criei este repositório para compartilhar meus códigos úteis para o DigiSpark Attiny85. Todos os códigos são testadas no Attiny85 e criadas no Arduino IDE.
+    
+## Códigos
+
+    
+## Como usar o DigiSpark
+    
+ 
+# AVISO
+Todos os softwares/scripts/aplicativos/etc neste repositório são fornecidos sem qualquer tipo de garantia. O uso desses softwares/scripts/aplicativos/etc é inteiramente por sua conta e risco. O criador desses softwares/scripts/aplicativos/etc não é responsável por qualquer dano direto ou indireto à sua propriedade ou, de outra pessoa.
