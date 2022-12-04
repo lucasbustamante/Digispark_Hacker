@@ -11,9 +11,10 @@ Para pessoas que não podem comprar um RubberDucky, o DigiSpark Attiny85 é a so
 Eu criei este repositório para compartilhar meus códigos úteis para o DigiSpark Attiny85. Todos os códigos são testadas no Attiny85 e criadas no Arduino IDE.
     
 ## Códigos
-
+>[Ladão de senhas Wi-Fi](https://github.com/lucasbustamante/Digispark_Hacker/tree/master/payloads/ladrao_de_senha_wifi)
     
-## Como usar o DigiSpark
+## Como configurar seu DigiSpark (windows)
+Antes de começar usar seu DigiSpark, você precisa fazer algumas configurações, para isso siga este [TUTORIAL](https://embarcados.com.br/instalando-o-attiny85-no-windows/).
     
  
 # AVISO
