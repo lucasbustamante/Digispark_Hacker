@@ -10,4 +10,6 @@ Configure o URL do seu [WebHook](https://webhook.site/), cole no seu código. ([
 Abra este código no Arduino IDE e suba o código para seu DigiSpark.
 
 ## Teclado ABNT
-Caso for invadir uma maquina que esteja usando teclado com a configuração Brasil ABNT, você terá que fazer mais algumas alterações
+Caso for invadir uma maquina que esteja usando teclado com a configuração Brasil ABNT, 
+
+você terá que fazer mais algumas alterações ([TUTORIAL](https://github.com/lucasbustamante/Digispark_Hacker/tree/master/teclado__abnt))
