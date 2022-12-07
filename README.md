@@ -18,4 +18,4 @@ Antes de começar usar seu DigiSpark, você precisa fazer algumas configuraçõe
     
  
 # AVISO
-Todos os softwares/scripts/aplicativos/etc neste repositório são fornecidos sem qualquer tipo de garantia. O uso desses softwares/scripts/aplicativos/etc é inteiramente por sua conta e risco. O criador desses softwares/scripts/aplicativos/etc não é responsável por qualquer dano direto ou indireto à sua propriedade ou, de outra pessoa.
+Todos os softwares/scripts/aplicativos/etc neste repositório são fornecidos sem qualquer tipo de garantia. O uso desses softwares/scripts/aplicativos/etc é inteiramente por sua conta e risco. O criador desses softwares/scripts/aplicativos/etc não é responsável por qualquer dano direto ou indireto à sua propriedade ou, de outra pessoa
