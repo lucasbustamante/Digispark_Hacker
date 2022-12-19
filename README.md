@@ -14,7 +14,7 @@ Eu criei este repositório para compartilhar meus códigos úteis para o DigiSpa
 >[Ladão de senhas Wi-Fi](https://github.com/lucasbustamante/Digispark_Hacker/tree/master/payloads/ladrao_de_senha_wifi)
     
 ## Como configurar seu DigiSpark (windows)
-Antes de começar usar seu DigiSpark, você precisa fazer algumas configurações, para isso siga este [TUTORIAL](https://embarcados.com.br/instalando-o-attiny85-no-windows/).
+Antes de começar usar seu DigiSpark, você precisa fazer algumas configurações, para isso siga este [TUTORIAL](https://embarcados.com.br/instalando-o-attiny85-no-windows/)
     
  
 # AVISO
