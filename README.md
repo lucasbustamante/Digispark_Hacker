@@ -8,7 +8,7 @@
 Para pessoas que não podem comprar um RubberDucky, o DigiSpark Attiny85 é a solução para seus problemas. Com ele é possível usá-lo como HID graças ao "DigiKeyboard.h", ele pode ser usado como teclado para enviar pressionamentos de tecla ao computador, que pode ser usado para pregar arquivos pessoais e criar um backdoor no sistema.
 
 ## O que você encontra aqui?
-Eu criei este repositório para compartilhar meus códigos úteis para o DigiSpark Attiny85. Todos os códigos são testadas no Attiny85 e criadas no Arduino IDE.
+Eu criei este repositório para compartilhar meus códigos úteis para o DigiSpark Attiny85. Todos os códigos são testados no Attiny85 e criados no Arduino IDE.
     
 ## Códigos
 >[Ladão de senhas Wi-Fi](https://github.com/lucasbustamante/Digispark_Hacker/tree/master/payloads/ladrao_de_senha_wifi)
