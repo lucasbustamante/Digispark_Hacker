@@ -21,7 +21,7 @@ Os pinos P3 e P4 estão conectados às linhas de dados USB necessárias para a c
 O P1 está conectado ao LED vermelho do Digispark. Para otimizar o desempenho, sugiro remover o LED ou cortar a conexão. No meu caso, optei por cortar a conexão do ânodo do LED com o ATtiny85.
 
 <p align="center">
-    <img src="/images/foto_led.png" width="580" />
+    <img src="/images/foto_led.png" width="450" />
 
 ## Programação
 
