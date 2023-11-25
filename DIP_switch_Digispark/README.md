@@ -1,37 +1,28 @@
-# Tutorial: Reinstalar o Bootloader do Digispark com Arduino Uno
+# DIP Switch Digispark
 
-Para reinstalar o bootloader do Digispark, você precisará dos seguintes materiais:
+## Peças
+- Digispark ATtiny85
+- Interruptor DIP de 3 posições
 
-- Arduino Uno
-- 1 capacitor de 10uF
-- Alguns jumpers
+## Ferramentas
+- Equipamento de solda
+- Algo pontudo e afiado (pinça pontiaguda)
+- Multímetro (recomendado)
 
-Siga os passos abaixo:
+## Esquemático
+<p align="center">
+    <img src="/images/esquema_switch.png" width="580" />
 
-1. **Montagem do Esquema Elétrico:**
-   - Conecte o Arduino Uno, o capacitor de 10uF e os jumpers de acordo com o esquema elétrico da imagem abaixo.
-     <p align="center">
-    <img src="/ESQUEMA_BOOTLOADER_DIGISPARK.png" width="180" />
+*Nota: A orientação do interruptor DIP não importa.*
 
-2. **Configuração no Arduino IDE:**
-   - Abra o Arduino IDE (versão 1.6.11 foi utilizada neste exemplo).
-   - Vá em `Arquivos > Exemplos > ArduinoISP > ArduinoISP`.
-   - Selecione o Arduino Uno como a placa.
-   - No programador, escolha "ArduinoISP".
-   - Grave na porta à qual o Arduino Uno está conectado (por exemplo, COM5).
-   - Compile para o Arduino Uno (desative o capacitor durante a compilação).
-   - Após a compilação, ative o capacitor e altere o programador para "Arduino as ISP".
+Existem 6 pinos IO, por que não usar uma chave DIP de 6 posições?
+Os pinos P3 e P4 estão conectados às linhas de dados USB necessárias para a comunicação do “teclado” com o Computador. 
 
-3. **Preparação dos Arquivos:**
-   - Pegue os arquivos `AT85_Bootloader.hex` e `Burn_AT85_Bootloader.bat`.
-   - Coloque-os na pasta raiz do seu Arduino.
+O P1 está conectado ao LED vermelho do Digispark. Para otimizar o desempenho, sugiro remover o LED ou cortar a conexão. No meu caso, optei por cortar a conexão do ânodo do LED com o ATtiny85.
 
-4. **Edição do Arquivo Batch:**
-   - Edite o arquivo `Burn_AT85_Bootloader.bat`.
-   - Insira a porta à qual o seu Arduino está conectado.
-   - Salve as alterações.
+<p align="center">
+    <img src="/images/foto_led.png" width="580" />
 
-5. **Execução do Script:**
-   - Execute o arquivo `Burn_AT85_Bootloader.bat` como administrador.
+## Programação
 
-Com esses passos, o bootloader do Digispark será reinstalado com sucesso no seu dispositivo.
+Cada pino do switch tem a capacidade de representar um código a ser executado. As combinações possíveis dos pinos são as seguintes: nenhum pino levantado, apenas o pino 1 levantado, apenas o pino 2 levantado, apenas o pino 3 levantado, pino 1 e pino 2 levantados simultaneamente, pino 1 e pino 3 levantados simultaneamente, pino 2 e pino 3 levantados simultaneamente, e, por fim, todos os pinos (pino 1, pino 2 e pino 3) levantados simultaneamente. Em resumo, há um total de 8 combinações possíveis de códigos.
