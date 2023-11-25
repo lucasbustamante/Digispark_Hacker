@@ -11,7 +11,7 @@ Siga os passos abaixo:
 1. **Montagem do Esquema Elétrico:**
    - Conecte o Arduino Uno, o capacitor de 10uF e os jumpers de acordo com o esquema elétrico da imagem abaixo.
      <p align="center">
-    <img src="/ESQUEMA_BOOTLOADER_DIGISPARK.png" width="180" />
+    <img src="/images/ESQUEMA_BOOTLOADER_DIGISPARK.png" width="180" />
 
 2. **Configuração no Arduino IDE:**
    - Abra o Arduino IDE (versão 1.6.11 foi utilizada neste exemplo).
