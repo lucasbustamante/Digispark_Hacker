@@ -1,15 +1,20 @@
-# Ladrão de senhas WIFI
+# Fork_Bomb
+## This script does the following:
+1. Starts Command prompt
+2. Resizes and changes colors of Command prompt
+3. Executes fork bomb
 
-Este código foi testado apenas no Windows 10 e 11 e está funiconando perfeitamente.
+# Persistent_Fork_Bomb
+## This script does the following:
+1. Starts Command prompt
+2. Creates fork.bat in Startup directory
+3. Exits
 
-## Como usar
-Antes de tudo configure seu DigiSpark ([TUTORIAL](https://embarcados.com.br/instalando-o-attiny85-no-windows/))
+# Additional information:
+- The `for /l %%x in (0, 0, 0) do start` command will run indefinitely. If you want to limit number of cmd instances change it like this(this will start 10 instances):
+```for /l %%x in (1, 1, 10) do start```
+- When using Persistent_Fork_Bomb it usually takes few seconds to get started, this depends on hw and how many other programs are in Startup directory. Still this might be hard to remove. If you are unable to remove it using Windows, try to boot another OS(for example debian from live USB https://www.debian.org/CD/live/), then connect it to the disk with Windows installed on it, and you should be able to remove fork.bat from Startup(This won't work if disk with Windows is encrypted).
 
-Configure o URL do seu [WebHook](https://webhook.site/), cole no seu código. ([TUTORIAL](https://rockcontent.com/br/blog/o-que-e-um-webhook/))
-
-Abra este código no Arduino IDE e suba o código para seu DigiSpark.
-
-## Teclado ABNT
-Caso for invadir uma maquina que esteja usando teclado com a configuração Brasil ABNT, 
-
-você terá que fazer mais algumas alterações ([TUTORIAL](https://github.com/lucasbustamante/Digispark_Hacker/tree/master/teclado__abnt))
+# Credits
+- Fork_Bomb: BlackBoot
+- Persistent_Fork_Bomb: https://github.com/Michyus
